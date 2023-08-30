@@ -1,20 +1,19 @@
 import { NavLink } from "react-router-dom";
+import ThemeSwitch from "./ThemeSwitch";
 
 const NavigationBar = () => {
   return (
-    <nav>
+    <nav className="dark:bg-black bg-white flex justify-between">
       <div>
-        <p>Home</p>
+        <p className="dark:text-white text-black">Home</p>
       </div>
 
-      <div>
-        <li>
-          <NavLink to="/about">About</NavLink>
-        </li>
-        <li>
-          <NavLink to="/resume">Resume</NavLink>
-        </li>
+      <div className="dark:text-white text-black">
+        <NavLink to="/about">About</NavLink>
+
+        <NavLink to="/resume">Resume</NavLink>
       </div>
+      <ThemeSwitch />
     </nav>
   );
 };

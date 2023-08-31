@@ -3,7 +3,7 @@ import ThemeSwitch from "./ThemeSwitch";
 
 const NavigationBar = () => {
   return (
-    <nav className="dark:bg-black bg-white flex justify-evenly py-6 opacity-90">
+    <nav className="dark:bg-black bg-white flex justify-evenly py-6">
       <div>
         <Link
           to="/"

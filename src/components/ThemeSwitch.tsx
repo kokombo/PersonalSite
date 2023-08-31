@@ -6,7 +6,7 @@ const ThemeSwitch = () => {
   return (
     <button onClick={toggleDarkMode}>
       {/* {darkMode ? <MdOutlineDarkMode /> : <MdDarkMode />} */}
-      {darkMode ? <p className="text-white">Light</p> : <p>Dark</p>}
+      {darkMode ? <p className="text-white">Light Mode</p> : <p>Dark Mode</p>}
     </button>
   );
 };

@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Neuton-Bold";
+  src: url("../src/font/Neuton/Neuton-Bold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "Neuton-Regular";
+  src: url("../src/font/Neuton/Neuton-Regular.ttf") format("opentype");
+}

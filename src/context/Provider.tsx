@@ -1,4 +1,10 @@
-import { createContext, useContext, useState, PropsWithChildren } from "react";
+import {
+  createContext,
+  useContext,
+  useState,
+  PropsWithChildren,
+  useEffect,
+} from "react";
 
 type GlobalContextType = {
   darkMode: boolean;
@@ -6,8 +12,17 @@ type GlobalContextType = {
   toggleDarkMode: () => void;
 };
 
+const getThemeFromLocalStorage = () => {
+  const theme = localStorage.getItem("theme");
+  if (theme) {
+    return JSON.parse(theme);
+  } else {
+    return [];
+  }
+};
+
 const defaultState = {
-  darkMode: false,
+  darkMode: getThemeFromLocalStorage,
 };
 
 const AppContext = createContext<GlobalContextType | null>(null);
@@ -18,6 +33,10 @@ export const ContextProvider = ({ children }: PropsWithChildren<{}>) => {
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
   };
+
+  useEffect(() => {
+    localStorage.setItem("theme", JSON.stringify(darkMode));
+  }, [darkMode]);
 
   return (
     <AppContext.Provider value={{ darkMode, toggleDarkMode, setDarkMode }}>

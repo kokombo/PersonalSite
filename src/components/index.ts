@@ -1,3 +1,4 @@
 import NavigationBar from "./NavigationBar";
+import Icons from "./Icons";
 
-export { NavigationBar };
+export { NavigationBar, Icons };

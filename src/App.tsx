@@ -10,10 +10,11 @@ const App = () => {
     <div className={`${darkMode && "dark"}`}>
       <BrowserRouter>
         <Routes>
-          <Route index Component={Layout} />
-          <Route path="/" Component={Home} />
-          <Route path="about" Component={About} />
-          <Route path="resume" Component={Resume} />
+          <Route path="/" Component={Layout}>
+            <Route index Component={Home} />
+            <Route path="about" Component={About} />
+            <Route path="resume" Component={Resume} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </div>

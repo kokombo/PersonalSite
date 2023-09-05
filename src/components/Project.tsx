@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Project = ({ title, description, image, slug }: projectType) => {
   return (
-    <article className="border-[1px] border-gray flex flex-col items-start gap-6 pt-24 pb-8 px-4 rounded-sm text-gray bg-grey md:hover:translate-y-2 ">
+    <article className="border-[1px] border-gray flex flex-col items-start gap-6 pt-24 pb-8 px-4 rounded-sm text-gray bg-grey md:hover:translate-y-2 h-[500px] ">
       <div className="h-[150px] w-full">
         <img src={image} className="h-full w-full object-contain" />
       </div>

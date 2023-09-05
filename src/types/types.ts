@@ -8,6 +8,8 @@ export interface projectType {
   slug: string;
   images: Array<string>;
   tools: string;
+  live: string;
+  github: string;
 }
 
 export interface IconsType {

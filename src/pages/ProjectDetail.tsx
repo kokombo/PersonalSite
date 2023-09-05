@@ -12,14 +12,18 @@ const ProjectDetail = () => {
 
   const currentProject = data.find((project) => project.slug === slug);
 
+  const shots = currentProject?.images;
+
   return (
     <main className="bg-black  h-full w-full px-[6.94%]">
       <div className="dot-background flex flex-col items-center gap-20">
         <NavigationBar />
-        <section className="w-full text-gray flex flex-col gap-20 ">
+        <section className="w-full text-gray flex flex-col gap-12 ">
           <div className="flex flex-col justify-between text-center gap-12">
-            <h2>{currentProject?.title} </h2>
-            <div className="flex  items-center justify-between  ">
+            <h2 className="text-4xl font-NeutonBold">
+              {currentProject?.title}{" "}
+            </h2>
+            <div className="flex  items-center  gap-12 ">
               <Link
                 to=""
                 className="hover:underline hover:text-secondary hover:scale-110 "
@@ -35,9 +39,26 @@ const ProjectDetail = () => {
             </div>
           </div>
 
-          <div>
-            <p className="text-gray">Description</p>
-            <div></div>
+          <div className="flex flex-col items-start gap-6 text-gray">
+            <article className="flex flex-col gap-4">
+              <h3 className="text-3xl font-NeutonRegular">Description</h3>
+              <p className=""> {currentProject?.description} </p>
+            </article>
+            <article className="flex flex-col gap-4">
+              <h3 className="text-3xl font-NeutonRegular">Tools</h3>
+              <p className=""> {currentProject?.tools} </p>
+            </article>
+
+            <div className="flex flex-col gap-6">
+              <h3 className="text-3xl font-NeutonRegular">Shots</h3>
+              <div className="grid gap-8 place-items-center xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 ">
+                {shots?.map((item, index) => (
+                  <div key={index} className="w-full h-full ">
+                    <img src={item} className="w-full h-full object-contain " />
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </section>
         <Footer />

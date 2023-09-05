@@ -17,7 +17,11 @@ const Contact = () => {
         </p>
 
         <button className="flex items-center border-[1px] border-gray bg-grey py-4 px-10 gap-2 rounded-sm hover:scale-105 md:text-xl text-lg font-NeutonRegular ">
-          <Link to="" className=" rounded-sm ">
+          <Link
+            to="mailto:samuelibrahim3029@gmail.com"
+            className=" rounded-sm "
+            aria-label="send me a message now"
+          >
             Send a message now
           </Link>
           <MdMarkEmailRead />

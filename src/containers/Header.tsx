@@ -6,11 +6,11 @@ import { MdMarkEmailRead } from "react-icons/md";
 const Header = () => {
   return (
     <header className=" flex justify-center items-center py-8 md:py-12">
-      <div className="dark:text-gray text-black flex flex-col items-center text-center gap-4 mt-[100px]">
-        <h1 className="text-2xl font-NeutonBold">Hi, I'm Samuel</h1>
+      <div className="dark:text-gray text-black flex flex-col items-center text-center gap-4 mt-[50px] md:mt-[100px]">
+        <h1 className="text-xl md:text-2xl font-NeutonBold">Hi, I'm Samuel</h1>
 
         <article className="flex flex-col items-center gap-8">
-          <h2 className="text-6xl font-NeutonRegular  max-w-[800px] ">
+          <h2 className="text-4xl md:text-6xl font-NeutonRegular max-w-[800px] ">
             Software Developer with experience building web and mobile
             applications.
           </h2>

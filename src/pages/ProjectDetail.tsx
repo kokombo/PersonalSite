@@ -15,7 +15,7 @@ const ProjectDetail = () => {
   const github = currentProject?.github;
 
   return (
-    <main className="bg-black h-full w-full py-4">
+    <main className="bg-black w-full py-4">
       <div className="dot-background w-full text-gray flex flex-col gap-12 pb-4 ">
         <section className="flex flex-col justify-between text-start md:text-center gap-12 mt-12">
           <h2 className="text-4xl font-NeutonBold">{currentProject?.title} </h2>

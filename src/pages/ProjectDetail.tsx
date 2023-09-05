@@ -19,7 +19,7 @@ const ProjectDetail = () => {
       <div className="dot-background w-full text-gray flex flex-col gap-12 pb-4 ">
         <section className="flex flex-col justify-between text-start md:text-center gap-12 mt-12">
           <h2 className="text-4xl font-NeutonBold">{currentProject?.title} </h2>
-          <div className="flex  items-center gap-12 ">
+          <div className="flex  items-center gap-12 text-lg md:text-xl font-NeutonRegular ">
             <Link
               to={live!}
               target="_blank"
@@ -38,13 +38,16 @@ const ProjectDetail = () => {
         </section>
 
         <section className="flex flex-col items-start gap-6 text-gray">
-          <article className="flex flex-col gap-4">
-            <h3 className="text-3xl font-NeutonRegular">Description</h3>
-            <p className=""> {currentProject?.description} </p>
+          <article className="flex flex-col gap-4 font-NeutonRegular">
+            <h3 className="text-3xl ">Description</h3>
+            <p className="text-lg md:text-xl">
+              {" "}
+              {currentProject?.description}{" "}
+            </p>
           </article>
-          <article className="flex flex-col gap-4">
-            <h3 className="text-3xl font-NeutonRegular">Tools</h3>
-            <p className=""> {currentProject?.tools} </p>
+          <article className="flex flex-col gap-4 font-NeutonRegular">
+            <h3 className="text-3xl ">Tools</h3>
+            <p className="text-lg md:text-xl"> {currentProject?.tools} </p>
           </article>
 
           <div className="flex flex-col gap-6">

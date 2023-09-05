@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import { RefAttributes } from "react";
 
 export interface projectType {
   id: number;

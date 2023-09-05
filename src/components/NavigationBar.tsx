@@ -3,8 +3,8 @@ import ThemeSwitch from "./ThemeSwitch";
 
 const NavigationBar = () => {
   return (
-    <nav className="dark:bg-black bg-white  py-8 border-b-[1px] border-b-gray px-[6.94%] ">
-      <div className="dot-background flex justify-evenly ">
+    <nav className="dark:bg-black bg-white  py-8 border-b-[1px] border-b-gray px-[6.94%] w-full ">
+      <div className="dot-background flex justify-between">
         <div>
           <Link
             to="/"
@@ -14,12 +14,13 @@ const NavigationBar = () => {
           </Link>
         </div>
 
-        <div className="dark:text-gray text-black flex gap-10 items-center font-NeutonRegular text-lg">
-          <NavLink to="/about" className={"hover:underline "}>
-            About
-          </NavLink>
-
-          <NavLink to="/resume" className={"hover:underline "}>
+        <div className="flex gap-10 items-center  ">
+          <NavLink
+            to="/resume"
+            className={
+              "hover:underline dark:text-gray text-black  text-lg font-NeutonRegular"
+            }
+          >
             Resume
           </NavLink>
           <ThemeSwitch />

@@ -15,7 +15,7 @@ const ProjectDetail = () => {
   const github = currentProject?.github;
 
   return (
-    <main className="bg-black  h-full w-full px-[6.94%]">
+    <main className="bg-black h-full w-full py-20 ">
       <div className="dot-background ">
         <section className="w-full text-gray flex flex-col gap-12 pb-4">
           <div className="flex flex-col justify-between text-center gap-12">

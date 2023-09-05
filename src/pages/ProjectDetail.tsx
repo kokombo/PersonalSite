@@ -15,50 +15,46 @@ const ProjectDetail = () => {
   const github = currentProject?.github;
 
   return (
-    <main className="bg-black h-full w-full py-20 ">
-      <div className="dot-background ">
-        <section className="w-full text-gray flex flex-col gap-12 pb-4">
-          <div className="flex flex-col justify-between text-center gap-12">
-            <h2 className="text-4xl font-NeutonBold">
-              {currentProject?.title}{" "}
-            </h2>
-            <div className="flex  items-center  gap-12 ">
-              <Link
-                to={live!}
-                target="_blank"
-                className="hover:underline hover:text-secondary hover:scale-110 "
-              >
-                View Live
-              </Link>
-              <Link
-                to={github!}
-                target="_blank"
-                className="hover:underline hover:text-secondary hover:scale-110 "
-              >
-                View GitHub
-              </Link>
-            </div>
+    <main className="bg-black h-full w-full py-4">
+      <div className="dot-background w-full text-gray flex flex-col gap-12 pb-4 ">
+        <section className="flex flex-col justify-between text-center gap-12 mt-12">
+          <h2 className="text-4xl font-NeutonBold">{currentProject?.title} </h2>
+          <div className="flex  items-center gap-12 ">
+            <Link
+              to={live!}
+              target="_blank"
+              className="hover:underline hover:text-secondary hover:scale-110 "
+            >
+              View Live
+            </Link>
+            <Link
+              to={github!}
+              target="_blank"
+              className="hover:underline hover:text-secondary hover:scale-110 "
+            >
+              View GitHub
+            </Link>
           </div>
+        </section>
 
-          <div className="flex flex-col items-start gap-6 text-gray">
-            <article className="flex flex-col gap-4">
-              <h3 className="text-3xl font-NeutonRegular">Description</h3>
-              <p className=""> {currentProject?.description} </p>
-            </article>
-            <article className="flex flex-col gap-4">
-              <h3 className="text-3xl font-NeutonRegular">Tools</h3>
-              <p className=""> {currentProject?.tools} </p>
-            </article>
+        <section className="flex flex-col items-start gap-6 text-gray">
+          <article className="flex flex-col gap-4">
+            <h3 className="text-3xl font-NeutonRegular">Description</h3>
+            <p className=""> {currentProject?.description} </p>
+          </article>
+          <article className="flex flex-col gap-4">
+            <h3 className="text-3xl font-NeutonRegular">Tools</h3>
+            <p className=""> {currentProject?.tools} </p>
+          </article>
 
-            <div className="flex flex-col gap-6">
-              <h3 className="text-3xl font-NeutonRegular">Shots</h3>
-              <div className="grid gap-8 place-items-center xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 ">
-                {shots?.map((item, index) => (
-                  <div key={index} className="w-full h-full ">
-                    <img src={item} className="w-full h-full object-contain " />
-                  </div>
-                ))}
-              </div>
+          <div className="flex flex-col gap-6">
+            <h3 className="text-3xl font-NeutonRegular">Shots</h3>
+            <div className="grid gap-8 place-items-center xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 ">
+              {shots?.map((item, index) => (
+                <div key={index} className="w-full h-full ">
+                  <img src={item} className="w-full h-full object-contain " />
+                </div>
+              ))}
             </div>
           </div>
         </section>

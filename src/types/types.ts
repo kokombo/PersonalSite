@@ -6,6 +6,8 @@ export interface projectType {
   title: string;
   description: string;
   slug: string;
+  images: Array<string>;
+  tools: string;
 }
 
 export interface IconsType {

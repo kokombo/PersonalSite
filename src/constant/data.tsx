@@ -34,42 +34,69 @@ export const iconsData: IconsType[] = [
 export const projectData: projectType[] = [
   {
     id: 1,
-    image: images.bowal_home,
+    image: images.bowal1,
     title: "Bowal Mobile App",
     description:
-      "A multi-vendor e-commerce platform, A multi-vendor e-commerce platform",
+      "A multi-vendor e-commerce platform that leverages geo-location technology to online buying and selling in Africa.",
     slug: slugify("Bowal Mobile App", { lower: true }),
+    images: [
+      images.bowal1,
+      images.bowal2,
+      images.bowal3,
+      images.bowal4,
+      images.bowal5,
+      images.bowal6,
+      images.bowal7,
+      images.bowal8,
+      images.bowal9,
+      images.bowal10,
+    ],
+    tools: "React Native, Redux, JavaScript",
   },
   {
     id: 2,
-    image: images.bowal_home,
-    title: "Bowal Mobile App",
+    image: images.beud1,
+    title: "Beuder Tech Community",
     description:
-      "A multi-vendor e-commerce platform, A multi-vendor e-commerce platform",
-    slug: slugify("Bowal Mobile App", { lower: true }),
+      "A tech community connecting founders with tech experts to birth hundreds of innovative tech solutions out of Africa.",
+    slug: slugify("Beuder Tech Community", { lower: true }),
+    images: [
+      images.beud1,
+      images.beud2,
+      images.beud3,
+      images.beud4,
+      images.beud5,
+    ],
+    tools: "ReactJS, Tailwind CSS",
   },
   {
     id: 3,
-    image: images.bowal_home,
-    title: "Bowal Mobile App",
+    image: images.ternhub1,
+    title: "TheTernHub",
     description:
-      "A multi-vendor e-commerce platform, A multi-vendor e-commerce platform",
+      "A job platform for newbies in the tech industry to discover latest internship opportunities and junior roles. ",
     slug: slugify("Bowal Mobile App", { lower: true }),
+    images: [],
+    tools: "",
   },
-  {
-    id: 4,
-    image: images.bowal_home,
-    title: "Bowal Mobile App",
-    description:
-      "A multi-vendor e-commerce platform, A multi-vendor e-commerce platform",
-    slug: slugify("Bowal Mobile App", { lower: true }),
-  },
-  {
-    id: 5,
-    image: images.bowal_home,
-    title: "Bowal Mobile App",
-    description:
-      "A multi-vendor e-commerce platform, A multi-vendor e-commerce platform",
-    slug: slugify("Bowal Mobile App", { lower: true }),
-  },
+  // {
+  //   id: 4,
+  //   image: images.bowal1,
+  //   title: "Bowal Mobile App",
+  //   description:
+  //     "A multi-vendor e-commerce platform, A multi-vendor e-commerce platform",
+  //   slug: slugify("Bowal Mobile App", { lower: true }),
+  //   images: [],
+  //   tools: "",
+  // },
+  // {
+  //   id: 5,
+  //   image: images.bowal1,
+  //   title: "Bowal Mobile App",
+  //   description:
+  //     "A multi-vendor e-commerce platform, A multi-vendor e-commerce platform",
+  //   slug: slugify("Bowal Mobile App", { lower: true }),
+  //   images: [],
+  //   tools: "",
+  // },
 ];

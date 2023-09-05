@@ -31,6 +31,9 @@ import beud5 from "../assets/images/beud5.png";
 
 import ternhub1 from "../assets/images/ternhub1.png";
 import ternhub2 from "../assets/images/ternhub2.png";
+import ternhub3 from "../assets/images/ternhub3.png";
+import ternhub4 from "../assets/images/ternhub4.png";
+import ternhub5 from "../assets/images/ternhub5.png";
 
 import textscrapper from "../assets/images/textscrapper.png";
 
@@ -68,6 +71,9 @@ export default {
 
   ternhub1,
   ternhub2,
+  ternhub3,
+  ternhub4,
+  ternhub5,
 
   textscrapper,
 };

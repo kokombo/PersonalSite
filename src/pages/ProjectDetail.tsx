@@ -52,7 +52,7 @@ const ProjectDetail = () => {
 
           <div className="flex flex-col gap-6">
             <h3 className="text-3xl font-NeutonRegular">Shots</h3>
-            <div className="grid gap-8 place-items-center xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 ">
+            <div className="grid gap-8 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 ">
               {shots?.map((item, index) => (
                 <div key={index} className="w-full h-full ">
                   <img src={item} className="w-full h-full object-contain " />

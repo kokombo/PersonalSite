@@ -87,7 +87,13 @@ export const projectData: projectType[] = [
     description:
       "A job platform for newbies in the tech industry to discover latest internship opportunities and junior roles. ",
     slug: slugify("TheTernHub", { lower: true }),
-    images: [images.ternhub1, images.ternhub2],
+    images: [
+      images.ternhub1,
+      images.ternhub2,
+      images.ternhub3,
+      images.ternhub4,
+      images.ternhub5,
+    ],
     tools: "ReactJS, Tailwind CSS, Redux, Firebase",
     live: "",
     github: "https://github.com/BowaDAO/The-Tern-Hub-Web-App",

@@ -12,7 +12,7 @@ const Project = ({ title, description, image, slug }: projectType) => {
       <h2 className="md:text-xl text-lg font-NeutonBold">{title} </h2>
       <p className="md:text-lg text-base font-NeutonRegular">{description}</p>
       <Link
-        to={`/${slug}`}
+        to={`/projects/${slug}`}
         className="flex items-center gap-2 hover:text-secondary"
       >
         <p className="md:text-base text-sm font-NeutonRegular ">View Project</p>

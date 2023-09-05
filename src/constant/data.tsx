@@ -94,15 +94,15 @@ export const projectData: projectType[] = [
   },
   {
     id: 4,
-    image: images.bowal1,
-    title: "Bowal Mobile App",
+    image: images.textscrapper,
+    title: "Text Extractor",
     description:
-      "A multi-vendor e-commerce platform. A multi-vendor e-commerce platform. A multi-vendor e-commerce platform",
-    slug: slugify("Bowal Mobile App", { lower: true }),
-    images: [],
-    tools: "",
-    live: "",
-    github: "",
+      "A simple web application for users to easily extract text from screenshots.",
+    slug: slugify("Text Extractor", { lower: true }),
+    images: [images.textscrapper],
+    tools: "Tesseract.JS, React",
+    live: "https://text-scrapper.netlify.app/",
+    github: "https://github.com/BowaDAO/text-scrapper",
   },
   // {
   //   id: 5,

@@ -18,14 +18,14 @@ const Header = () => {
         </article>
 
         <div className="mt-[30px] flex flex-col gap-6">
-          <button className="flex items-center border-[1px] border-gray dark:bg-grey py-4 px-10 gap-2 rounded-sm hover:scale-105 text-base">
+          <button className="flex items-center border-[1px] border-gray dark:bg-grey py-4 px-10 gap-2 rounded-sm hover:scale-105 md:text-xl text-lg font-NeutonRegular">
             <Link to="" className=" rounded-sm ">
               Send an email
             </Link>
             <MdMarkEmailRead />
           </button>
 
-          <div className="flex items-center justify-center gap-2 underline text-sm hover:text-secondary">
+          <div className="flex items-center justify-center gap-2 underline md:text-lg text-base hover:scale-110 hover:text-secondary font-NeutonRegular">
             <Link to="">Visit my substack </Link>
             <RiExternalLinkLine />
           </div>

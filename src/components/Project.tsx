@@ -9,10 +9,10 @@ const Project = ({ title, description, image }: projectType) => {
         <img src={image} className="h-full w-full object-contain" />
       </div>
 
-      <h2 className="text-lg">{title} </h2>
-      <p className="text-sm">{description}</p>
+      <h2 className="md:text-xl text-lg font-NeutonBold">{title} </h2>
+      <p className="md:text-lg text-base font-NeutonRegular">{description}</p>
       <Link to="" className="flex items-center gap-2 hover:text-secondary">
-        <p className="text-sm ">View Project</p>
+        <p className="md:text-base text-sm font-NeutonRegular ">View Project</p>
         <HiOutlineArrowNarrowRight />
       </Link>
     </article>

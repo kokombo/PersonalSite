@@ -15,11 +15,11 @@ const NavigationBar = () => {
         </div>
 
         <div className="dark:text-gray text-black flex gap-10 items-center font-NeutonRegular text-lg">
-          <NavLink to="/about" className={"hover:underline"}>
+          <NavLink to="/about" className={"hover:underline "}>
             About
           </NavLink>
 
-          <NavLink to="/resume" className={"hover:underline"}>
+          <NavLink to="/resume" className={"hover:underline "}>
             Resume
           </NavLink>
           <ThemeSwitch />

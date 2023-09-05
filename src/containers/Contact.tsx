@@ -3,7 +3,7 @@ import { MdMarkEmailRead } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <section className="md:py-20 py-8 flex flex-col items-center md:gap-20 gap-10 text-gray">
+    <section className="md:py-20 py-12 flex flex-col items-center md:gap-20 gap-10 text-gray">
       <h2 className="text-4xl text-gray font-NeutonBold ">
         Say Hello, Anytime!{" "}
       </h2>

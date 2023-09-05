@@ -1,6 +1,6 @@
 const Languages = () => {
   return (
-    <section className="flex flex-col items-center gap-10 md:gap-20 text-gray w-full   py-8 md:py-12">
+    <section className="flex flex-col items-center gap-10 md:gap-20 text-gray w-full   py-8 md:py-20">
       <h2 className=" text-4xl font-NeutonBold">Technologies </h2>
       <div className="flex items-center justify-center flex-wrap md:gap-8 gap-6 px-2 py-[50px] md:py-[64px]  border-y-[1px] border-y-gray bg-grey w-full font-NeutonRegular md:text-xl text-lg">
         <p>JavaScript</p>

@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import { NavigationBar } from "../components";
-import { Footer } from "../containers";
 import { useParams } from "react-router-dom";
 import { projectData } from "../constant/data";
 import { projectType } from "../types/types";
@@ -18,8 +16,7 @@ const ProjectDetail = () => {
 
   return (
     <main className="bg-black  h-full w-full px-[6.94%]">
-      <div className="dot-background flex flex-col items-center gap-20">
-        <NavigationBar />
+      <div className="dot-background ">
         <section className="w-full text-gray flex flex-col gap-12 pb-4">
           <div className="flex flex-col justify-between text-center gap-12">
             <h2 className="text-4xl font-NeutonBold">
@@ -65,7 +62,6 @@ const ProjectDetail = () => {
             </div>
           </div>
         </section>
-        <Footer />
       </div>
     </main>
   );

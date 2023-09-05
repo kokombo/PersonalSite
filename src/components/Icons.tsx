@@ -49,7 +49,7 @@ const Icons = () => {
             to={url}
             target="_blank"
             key={index}
-            className="hover:text-primary"
+            className="hover:text-secondary"
             aria-label={name}
           >
             {icon}

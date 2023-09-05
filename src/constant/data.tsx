@@ -105,7 +105,7 @@ export const projectData: projectType[] = [
     description:
       "A simple web application for users to easily extract text from screenshots.",
     slug: slugify("Text Extractor", { lower: true }),
-    images: [images.textscrapper, images.textscrapper, images.textscrapper],
+    images: [images.textscrapper],
     tools: "Tesseract.JS, React",
     live: "https://text-scrapper.netlify.app/",
     github: "https://github.com/BowaDAO/text-scrapper",

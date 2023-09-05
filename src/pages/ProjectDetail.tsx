@@ -40,10 +40,7 @@ const ProjectDetail = () => {
         <section className="flex flex-col items-start gap-6 text-gray">
           <article className="flex flex-col gap-4 font-NeutonRegular">
             <h3 className="text-3xl ">Description</h3>
-            <p className="text-lg md:text-xl">
-              {" "}
-              {currentProject?.description}{" "}
-            </p>
+            <p className="text-lg md:text-xl">{currentProject?.description}</p>
           </article>
           <article className="flex flex-col gap-4 font-NeutonRegular">
             <h3 className="text-3xl ">Tools</h3>

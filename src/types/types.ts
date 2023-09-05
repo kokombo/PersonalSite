@@ -1,15 +1,16 @@
 import { ReactNode } from "react";
+import { RefAttributes } from "react";
 
 export interface projectType {
   id: number;
-  image?: string;
+  image: string;
   title: string;
   description: string;
   slug: string;
   images: Array<string>;
   tools: string;
-  live: string;
-  github: string;
+  live?: string;
+  github?: string;
 }
 
 export interface IconsType {

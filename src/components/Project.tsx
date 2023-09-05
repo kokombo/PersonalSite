@@ -13,6 +13,9 @@ const Project = ({ title, description, image, slug }: projectType) => {
       <p className="md:text-lg text-base font-NeutonRegular">{description}</p>
       <Link
         to={`/projects/${slug}`}
+        onClick={() => {
+          window.scrollTo(0, 0);
+        }}
         className="flex items-center gap-2 hover:text-secondary"
       >
         <p className="md:text-base text-sm font-NeutonRegular ">View Project</p>

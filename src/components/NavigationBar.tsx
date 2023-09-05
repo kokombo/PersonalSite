@@ -15,7 +15,8 @@ const NavigationBar = () => {
 
         <div className="flex gap-10 items-center  ">
           <NavLink
-            to="/resume"
+            to="https://drive.google.com/file/d/1yb9n6K34IQdJEHoui6tXxQmcM9I62m1h/view?usp=sharing"
+            target="_blank"
             className={"hover:underline text-gray  text-lg font-NeutonRegular"}
           >
             Resume

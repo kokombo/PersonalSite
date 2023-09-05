@@ -11,8 +11,7 @@ const Header = () => {
 
         <article className="flex flex-col items-center text-center gap-8">
           <h2 className="text-4xl md:text-6xl font-NeutonRegular max-w-[800px] ">
-            Software Developer with experience building web and mobile
-            applications.
+            Software Developer who enjoys building web and mobile applications.
           </h2>
           <Icons />
         </article>

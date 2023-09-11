@@ -6,6 +6,7 @@ const Languages = () => {
         <p>JavaScript</p>
         <p> TypeScript</p>
         <p> React.JS</p>
+        <p> Next.JS</p>
         <p>React Native</p>
         <p>Redux</p>
         <p>Tailwind CSS </p>

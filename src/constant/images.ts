@@ -45,6 +45,7 @@ import exco5 from "../assets/images/exco5.png";
 import exco6 from "../assets/images/exco6.png";
 import exco7 from "../assets/images/exco7.png";
 import exco8 from "../assets/images/exco8.png";
+import exco9 from "../assets/images/exco9.png";
 
 export default {
   bowal1,
@@ -94,4 +95,5 @@ export default {
   exco6,
   exco7,
   exco8,
+  exco9,
 };

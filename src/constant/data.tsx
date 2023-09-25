@@ -130,6 +130,7 @@ export const projectData: projectType[] = [
       images.exco6,
       images.exco7,
       images.exco8,
+      images.exco9,
     ],
     tools: "TypeScript, React Native",
     live: "",

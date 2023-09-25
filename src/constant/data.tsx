@@ -114,14 +114,25 @@ export const projectData: projectType[] = [
     live: "https://text-scrapper.netlify.app/",
     github: "https://github.com/BowaDAO/text-scrapper",
   },
-  // {
-  //   id: 5,
-  //   image: images.bowal1,
-  //   title: "Bowal Mobile App",
-  //   description:
-  //     "A multi-vendor e-commerce platform, A multi-vendor e-commerce platform",
-  //   slug: slugify("Bowal Mobile App", { lower: true }),
-  //   images: [],
-  //   tools: "",
-  // },
+  {
+    id: 5,
+    image: images.exco1,
+    title: "Exco mobile application",
+    description:
+      "A multi-vendor e-commerce platform, A multi-vendor e-commerce platform",
+    slug: slugify("Exco mobile application", { lower: true }),
+    images: [
+      images.exco1,
+      images.exco2,
+      images.exco3,
+      images.exco4,
+      images.exco5,
+      images.exco6,
+      images.exco7,
+      images.exco8,
+    ],
+    tools: "TypeScript, React Native",
+    live: "",
+    github: "https://github.com/BowaDAO/exco",
+  },
 ];

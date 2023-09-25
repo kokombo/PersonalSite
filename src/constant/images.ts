@@ -37,6 +37,15 @@ import ternhub5 from "../assets/images/ternhub5.png";
 
 import textscrapper from "../assets/images/textscrapper.png";
 
+import exco1 from "../assets/images/exco1.png";
+import exco2 from "../assets/images/exco2.png";
+import exco3 from "../assets/images/exco3.png";
+import exco4 from "../assets/images/exco4.png";
+import exco5 from "../assets/images/exco5.png";
+import exco6 from "../assets/images/exco6.png";
+import exco7 from "../assets/images/exco7.png";
+import exco8 from "../assets/images/exco8.png";
+
 export default {
   bowal1,
   bowal2,
@@ -76,4 +85,13 @@ export default {
   ternhub5,
 
   textscrapper,
+
+  exco1,
+  exco2,
+  exco3,
+  exco4,
+  exco5,
+  exco6,
+  exco7,
+  exco8,
 };

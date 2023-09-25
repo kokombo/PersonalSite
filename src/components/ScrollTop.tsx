@@ -7,7 +7,7 @@ const ScrollTop = () => {
 
   let content;
 
-  if (scrollHeight > 1700) {
+  if (scrollHeight > 1800) {
     content = (
       <div className="flex items-center justify-center fixed z-[100] h-8 w-8 rounded-full bg-purple-500 md:right-24 md:bottom-40 right-10 bottom-28 ">
         <button

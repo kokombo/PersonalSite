@@ -34,6 +34,14 @@ import ternhub2 from "../assets/images/ternhub2.png";
 import ternhub3 from "../assets/images/ternhub3.png";
 import ternhub4 from "../assets/images/ternhub4.png";
 import ternhub5 from "../assets/images/ternhub5.png";
+import ternhub6 from "../assets/images/ternhub6.png";
+import ternhub7 from "../assets/images/ternhub7.png";
+import ternhub8 from "../assets/images/ternhub8.png";
+import ternhub9 from "../assets/images/ternhub9.png";
+import ternhub10 from "../assets/images/ternhub10.png";
+import ternhub11 from "../assets/images/ternhub11.png";
+import ternhub12 from "../assets/images/ternhub12.png";
+import ternhub13 from "../assets/images/ternhub13.png";
 
 import textscrapper from "../assets/images/textscrapper.png";
 
@@ -84,6 +92,14 @@ export default {
   ternhub3,
   ternhub4,
   ternhub5,
+  ternhub6,
+  ternhub7,
+  ternhub8,
+  ternhub9,
+  ternhub10,
+  ternhub11,
+  ternhub12,
+  ternhub13,
 
   textscrapper,
 

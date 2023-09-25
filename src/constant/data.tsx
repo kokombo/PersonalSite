@@ -119,7 +119,7 @@ export const projectData: projectType[] = [
     image: images.exco2,
     title: "Exco mobile application",
     description:
-      "Exco is an NFT gaming platform where users can stake tokens to play games and earn.",
+      "Exco is an NFT gaming platform where users can stake tokens to play games and earn real cash",
     slug: slugify("Exco mobile application", { lower: true }),
     images: [
       images.exco1,

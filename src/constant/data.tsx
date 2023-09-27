@@ -140,8 +140,27 @@ export const projectData: projectType[] = [
       images.exco8,
       images.exco9,
     ],
-    tools: "TypeScript, React Native",
+    tools: "TypeScript, React Native, Expo",
     live: "",
     github: "https://github.com/BowaDAO/exco",
+  },
+  {
+    id: 6,
+    image: images.logistics1,
+    title: "Sendey",
+    description:
+      "Sendey is a logistics mobile application modelled to work like bolt/uber for doorstep items delivery.",
+    slug: slugify("sendey", { lower: true }),
+    images: [
+      images.logistics1,
+      images.logistics2,
+      images.logistics3,
+      images.logistics4,
+      images.logistics5,
+      images.logistics6,
+    ],
+    tools: "JavaScript, React Native, Expo",
+    live: "",
+    github: "https://github.com/BowaDAO/logisticsmobileapp",
   },
 ];

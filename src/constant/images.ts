@@ -55,6 +55,13 @@ import exco7 from "../assets/images/exco7.png";
 import exco8 from "../assets/images/exco8.png";
 import exco9 from "../assets/images/exco9.png";
 
+import logistics1 from "../assets/images/logistics1.png";
+import logistics2 from "../assets/images/logistics2.png";
+import logistics3 from "../assets/images/logistics3.png";
+import logistics4 from "../assets/images/logistics4.png";
+import logistics5 from "../assets/images/logistics5.png";
+import logistics6 from "../assets/images/logistics6.png";
+
 export default {
   bowal1,
   bowal2,
@@ -112,4 +119,11 @@ export default {
   exco7,
   exco8,
   exco9,
+
+  logistics1,
+  logistics2,
+  logistics3,
+  logistics4,
+  logistics5,
+  logistics6,
 };

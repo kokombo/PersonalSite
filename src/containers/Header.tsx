@@ -13,6 +13,10 @@ const Header = () => {
           <h2 className="text-4xl md:text-6xl font-NeutonRegular max-w-[800px] ">
             Software Developer who enjoys building web and mobile applications.
           </h2>
+          <p className="md:text-lg text-base font-NeutonRegular">
+            I love shipping solutions and working on the business side of
+            things!
+          </p>
           <Icons />
         </article>
 

@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import { projectData } from "../constant/data";
 import { projectType } from "../types/types";
 import { useState } from "react";
-import { ScrollTop } from "../components";
 
 const ProjectDetail = () => {
   const [data] = useState<projectType[] | null>(projectData);

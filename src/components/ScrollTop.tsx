@@ -12,7 +12,7 @@ const ScrollTop = () => {
       <button
         className="text-white flex items-center justify-center fixed z-[100] h-8 w-8 rounded-full bg-purple-500 md:right-24 md:bottom-40 right-10 bottom-28 "
         onClick={() => {
-          window.scrollTo(0, 0);
+          window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
         }}
       >
         <FaArrowUp />

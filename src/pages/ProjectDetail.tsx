@@ -60,8 +60,6 @@ const ProjectDetail = () => {
           </div>
         </section>
       </div>
-
-      <ScrollTop />
     </main>
   );
 };

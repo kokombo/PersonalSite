@@ -63,10 +63,11 @@ export const projectData: projectType[] = [
       images.bowal20,
       images.bowal5,
     ],
-    tools: "React Native, Redux, Firebase",
+    stack: "React Native, Redux, Firebase, JavaScript",
     live: "",
     github: "https://github.com/BowaDAO/BowalMobileApp",
   },
+
   {
     id: 2,
     image: images.beud1,
@@ -75,10 +76,11 @@ export const projectData: projectType[] = [
       "A tech community that connects non-tech founders with tech professionals to build commercial products.",
     slug: slugify("Beuder Tech Community", { lower: true }),
     images: [images.beud1, images.beud3, images.beud4, images.beud5],
-    tools: "ReactJS, Tailwind CSS, Vite",
+    stack: "ReactJS, Tailwind CSS, Vite",
     live: "https://beud.netlify.app",
     github: "https://github.com/BowaDAO/Beud",
   },
+
   {
     id: 3,
     image: images.ternhub1,
@@ -101,10 +103,11 @@ export const projectData: projectType[] = [
       images.ternhub12,
       images.ternhub13,
     ],
-    tools: "ReactJS, Tailwind CSS, Redux, Firebase, Vite",
+    stack: "ReactJS, Tailwind CSS, Redux, Firebase, Vite",
     live: "",
     github: "https://github.com/BowaDAO/The-Tern-Hub-Web-App",
   },
+
   {
     id: 4,
     image: images.textscrapper,
@@ -118,10 +121,11 @@ export const projectData: projectType[] = [
       images.textscrapper,
       images.textscrapper,
     ],
-    tools: "Tesseract.JS, React",
+    stack: "Tesseract.JS, React",
     live: "https://text-scrapper.netlify.app/",
     github: "https://github.com/BowaDAO/text-scrapper",
   },
+
   {
     id: 5,
     image: images.exco2,
@@ -140,10 +144,11 @@ export const projectData: projectType[] = [
       images.exco8,
       images.exco9,
     ],
-    tools: "TypeScript, React Native, Expo",
+    stack: "TypeScript, React Native, Expo",
     live: "",
     github: "https://github.com/BowaDAO/exco",
   },
+
   {
     id: 6,
     image: images.logistics1,
@@ -159,8 +164,36 @@ export const projectData: projectType[] = [
       images.logistics5,
       images.logistics6,
     ],
-    tools: "JavaScript, React Native, Expo",
+    stack: "JavaScript, React Native, Expo",
     live: "",
     github: "https://github.com/BowaDAO/logisticsmobileapp",
+  },
+
+  {
+    id: 7,
+    image: images.ternmobile1,
+    title: "TernHub Mobile App",
+    description:
+      "A job platform for newbies in the tech industry to discover latest internship opportunities and junior roles.",
+    slug: slugify("ternhub mobile app", { lower: true }),
+    images: [
+      images.ternmobile1,
+      images.ternmobile2,
+      images.ternmobile3,
+      images.ternmobile4,
+      images.ternmobile5,
+      images.ternmobile6,
+      images.ternmobile7,
+      images.ternmobile8,
+      images.ternmobile9,
+      images.ternmobile10,
+      images.ternmobile11,
+      images.ternmobile12,
+      images.ternmobile13,
+      images.ternmobile14,
+    ],
+    stack: "TypeScript, React Native, Expo, Firebase, Redux",
+    live: "",
+    github: "https://github.com/BowaDAO/ternhubmobile",
   },
 ];

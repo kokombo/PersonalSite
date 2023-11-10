@@ -62,6 +62,21 @@ import logistics4 from "../assets/images/logistics4.png";
 import logistics5 from "../assets/images/logistics5.png";
 import logistics6 from "../assets/images/logistics6.png";
 
+import ternmobile1 from "../assets/images/ternmobile1.png";
+import ternmobile2 from "../assets/images/ternmobile2.png";
+import ternmobile3 from "../assets/images/ternmobile3.png";
+import ternmobile4 from "../assets/images/ternmobile4.png";
+import ternmobile5 from "../assets/images/ternmobile5.png";
+import ternmobile6 from "../assets/images/ternmobile6.png";
+import ternmobile7 from "../assets/images/ternmobile7.png";
+import ternmobile8 from "../assets/images/ternmobile8.png";
+import ternmobile9 from "../assets/images/ternmobile9.png";
+import ternmobile10 from "../assets/images/ternmobile10.png";
+import ternmobile11 from "../assets/images/ternmobile11.png";
+import ternmobile12 from "../assets/images/ternmobile12.png";
+import ternmobile13 from "../assets/images/ternmobile13.png";
+import ternmobile14 from "../assets/images/ternmobile14.png";
+
 export default {
   bowal1,
   bowal2,
@@ -126,4 +141,19 @@ export default {
   logistics4,
   logistics5,
   logistics6,
+
+  ternmobile1,
+  ternmobile2,
+  ternmobile3,
+  ternmobile4,
+  ternmobile5,
+  ternmobile6,
+  ternmobile7,
+  ternmobile8,
+  ternmobile9,
+  ternmobile10,
+  ternmobile11,
+  ternmobile12,
+  ternmobile13,
+  ternmobile14,
 };

@@ -7,7 +7,7 @@ export interface projectType {
   description: string;
   slug: string;
   images: Array<string>;
-  tools: string;
+  stack: string;
   live?: string;
   github?: string;
 }

@@ -45,7 +45,7 @@ const ProjectDetail = () => {
           </article>
           <article className="flex flex-col gap-4 font-NeutonRegular">
             <h3 className="text-3xl ">Tools</h3>
-            <p className="text-lg md:text-xl"> {currentProject?.tools} </p>
+            <p className="text-lg md:text-xl"> {currentProject?.stack} </p>
           </article>
 
           <div className="flex flex-col gap-6">

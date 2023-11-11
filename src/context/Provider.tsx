@@ -22,7 +22,7 @@ const getThemeFromLocalStorage = () => {
 };
 
 const defaultState = {
-  darkMode: getThemeFromLocalStorage,
+  darkMode: getThemeFromLocalStorage(),
 };
 
 const AppContext = createContext<GlobalContextType | null>(null);
@@ -47,6 +47,7 @@ export const ContextProvider = ({ children }: PropsWithChildren<{}>) => {
 
 export const useGlobalContext = () => {
   const context = useContext(AppContext);
+
   if (!context) {
     throw new Error("error");
   }

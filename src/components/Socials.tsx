@@ -10,6 +10,7 @@ const Socials = () => {
       >
         GitHub
       </Link>
+
       <Link
         to="https://www.twitter.com/Oluwanbowa"
         className="hover:underline hover:scale-110"
@@ -17,6 +18,7 @@ const Socials = () => {
       >
         Twitter
       </Link>
+
       <Link
         to="https://www.linkedin.com/in/samuel-ibrahim-84154818b/"
         className="hover:underline hover:scale-110"
@@ -24,6 +26,7 @@ const Socials = () => {
       >
         LinkedIn
       </Link>
+
       <Link
         to="https://oluwanbowa.substack.com/"
         className="hover:underline hover:scale-110"

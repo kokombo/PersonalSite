@@ -22,21 +22,25 @@ const ProjectDetail = () => {
           <h2 className="text-4xl font-NeutonBold">{currentProject?.title} </h2>
 
           <div className="flex  items-center gap-12 text-lg md:text-xl font-NeutonRegular ">
-            <Link
-              to={live!}
-              target="_blank"
-              className="hover:underline hover:text-secondary hover:scale-110 "
-            >
-              View Live
-            </Link>
+            {live && (
+              <Link
+                to={live!}
+                target="_blank"
+                className="hover:underline hover:text-secondary hover:scale-110 "
+              >
+                View Live
+              </Link>
+            )}
 
-            <Link
-              to={github!}
-              target="_blank"
-              className="hover:underline hover:text-secondary hover:scale-110 "
-            >
-              View GitHub
-            </Link>
+            {github && (
+              <Link
+                to={github!}
+                target="_blank"
+                className="hover:underline hover:text-secondary hover:scale-110 "
+              >
+                View GitHub
+              </Link>
+            )}
           </div>
         </section>
 

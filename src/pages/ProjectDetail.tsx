@@ -63,7 +63,13 @@ const ProjectDetail = () => {
             <div className="grid gap-6 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 ">
               {shots?.map((item, index) => (
                 <div key={index} className="w-full h-full ">
-                  <img src={item} className="w-full h-full object-contain " />
+                  <img
+                    src={item}
+                    className="w-full h-full object-contain "
+                    loading="lazy"
+                    alt={`${currentProject?.title} image-${index}`}
+                    decoding="async"
+                  />
                 </div>
               ))}
             </div>

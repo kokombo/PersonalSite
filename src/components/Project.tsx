@@ -6,7 +6,12 @@ const Project = ({ title, description, image, slug }: projectType) => {
   return (
     <article className="project_card">
       <div className="h-[150px] w-full">
-        <img src={image} className="h-full w-full object-contain" />
+        <img
+          src={image}
+          className="h-full w-full object-contain"
+          alt={title}
+          loading="lazy"
+        />
       </div>
 
       <h2 className="md:text-xl text-lg font-NeutonBold">{title} </h2>

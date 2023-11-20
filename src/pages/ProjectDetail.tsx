@@ -9,7 +9,9 @@ const ProjectDetail = () => {
   const [data] = useState<projectType[] | null>(projectData);
   const { slug } = useParams();
 
-  const currentProject = data?.find((project) => project.slug === slug);
+  const currentProject = data?.find(
+    (project) => project.slug === slug?.toString()
+  );
 
   const shots = currentProject?.images;
   const live = currentProject?.live;
@@ -61,13 +63,13 @@ const ProjectDetail = () => {
             <h3 className="text-3xl font-NeutonRegular">Shots</h3>
 
             <div className="grid gap-6 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 ">
-              {shots?.map((item, index) => (
+              {shots?.map((shot, index) => (
                 <div key={index} className="w-full h-full ">
                   <img
-                    src={item}
+                    src={shot}
                     className="w-full h-full object-contain "
                     loading="lazy"
-                    alt={`${currentProject?.title} image-${index}`}
+                    alt={`${currentProject?.title} image-${index + 1}`}
                     decoding="async"
                   />
                 </div>

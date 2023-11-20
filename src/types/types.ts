@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 export interface projectType {
-  id: number;
+  id: string;
   image: string;
   title: string;
   description: string;
@@ -16,4 +16,10 @@ export interface IconsType {
   icon: ReactNode;
   url: string;
   name: string;
+}
+
+export interface SocialsType {
+  id: string;
+  url: string;
+  label: string;
 }

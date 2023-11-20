@@ -10,6 +10,7 @@ const Icons = () => {
     <div className="flex flex-row text-2xl items-center gap-4">
       {icons.map((item, index) => {
         const { icon, url, name } = item;
+
         return (
           <Link
             to={url}

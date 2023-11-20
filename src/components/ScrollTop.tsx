@@ -1,5 +1,4 @@
 import { FaArrowUp } from "react-icons/fa";
-
 import useScrollHeight from "../utilities/useScrollHeight";
 
 const ScrollTop = () => {

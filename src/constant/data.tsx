@@ -1,6 +1,6 @@
 import { FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
-import { projectType } from "../types/types";
+import { SocialsType, projectType } from "../types/types";
 import { images } from ".";
 import { IconsType } from "../types/types";
 import slugify from "slugify";
@@ -33,7 +33,7 @@ export const iconsData: IconsType[] = [
 
 export const projectData: projectType[] = [
   {
-    id: 1,
+    id: "1",
     image: images.bowal1,
     title: "Bowal Mobile App",
     description:
@@ -69,7 +69,7 @@ export const projectData: projectType[] = [
   },
 
   {
-    id: 2,
+    id: "2",
     image: images.beud1,
     title: "Beuder Tech Community",
     description:
@@ -82,7 +82,7 @@ export const projectData: projectType[] = [
   },
 
   {
-    id: 3,
+    id: "3",
     image: images.ternhub1,
     title: "TheTernHub",
     description:
@@ -109,7 +109,7 @@ export const projectData: projectType[] = [
   },
 
   {
-    id: 4,
+    id: "4",
     image: images.textscrapper,
     title: "Text Extractor",
     description:
@@ -127,7 +127,7 @@ export const projectData: projectType[] = [
   },
 
   {
-    id: 5,
+    id: "5",
     image: images.exco2,
     title: "Exco mobile application",
     description:
@@ -150,7 +150,7 @@ export const projectData: projectType[] = [
   },
 
   {
-    id: 6,
+    id: "6",
     image: images.logistics1,
     title: "Sendey",
     description:
@@ -170,7 +170,7 @@ export const projectData: projectType[] = [
   },
 
   {
-    id: 7,
+    id: "7",
     image: images.ternmobile1,
     title: "TernHub Mobile App",
     description:
@@ -195,5 +195,28 @@ export const projectData: projectType[] = [
     stack: "TypeScript, React Native, Expo, Firebase, Redux",
     live: "",
     github: "https://github.com/BowaDAO/ternhubmobile",
+  },
+];
+
+export const socials: SocialsType[] = [
+  {
+    id: "1",
+    url: "https://github.com/BowaDAO",
+    label: "GitHub",
+  },
+  {
+    id: "2",
+    url: "https://www.twitter.com/Oluwanbowa",
+    label: "Twitter",
+  },
+  {
+    id: "3",
+    url: "https://www.linkedin.com/in/samuel-ibrahim-84154818b/",
+    label: "LinkedIn",
+  },
+  {
+    id: "4",
+    url: "https://oluwanbowa.substack.com/",
+    label: "Substack",
   },
 ];

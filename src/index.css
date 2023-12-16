@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: "Neuton-Bold";
-  src: url("../public/assets/font/Neuton/Neuton-Bold.ttf") format("opentype");
+  src: url("/assets/font/Neuton/Neuton-Bold.ttf") format("opentype");
 }
 
 @font-face {
   font-family: "Neuton-Regular";
-  src: url("../public/assets/font/Neuton/Neuton-Regular.ttf") format("opentype");
+  src: url("/assets/font/Neuton/Neuton-Regular.ttf") format("opentype");
 }
 
 body {

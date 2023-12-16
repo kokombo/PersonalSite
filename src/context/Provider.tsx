@@ -14,6 +14,7 @@ type GlobalContextType = {
 
 const getThemeFromLocalStorage = () => {
   const theme = localStorage.getItem("theme");
+
   if (theme) {
     return JSON.parse(theme);
   } else {
@@ -48,8 +49,7 @@ export const ContextProvider = ({ children }: PropsWithChildren<{}>) => {
 export const useGlobalContext = () => {
   const context = useContext(AppContext);
 
-  if (!context) {
-    throw new Error("error");
+  if (context) {
+    return context;
   }
-  return context;
 };

@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: "Neuton-Bold";
-  src: url("../src/font/Neuton/Neuton-Bold.ttf") format("opentype");
+  src: url("../public/assets/font/Neuton/Neuton-Bold.ttf") format("opentype");
 }
 
 @font-face {
   font-family: "Neuton-Regular";
-  src: url("../src/font/Neuton/Neuton-Regular.ttf") format("opentype");
+  src: url("../public/assets/font/Neuton/Neuton-Regular.ttf") format("opentype");
 }
 
 body {
@@ -46,7 +46,7 @@ body {
 }
 
 .header {
-  @apply flex justify-center items-center py-12 md:py-20 mt-20 md:mt-12;
+  @apply flex justify-center items-center py-12 md:py-20 mt-8 md:mt-4;
 }
 
 .languages {

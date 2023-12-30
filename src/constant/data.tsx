@@ -90,27 +90,14 @@ export const projectData: projectType[] = [
       images.ternhub12,
       images.ternhub13,
     ],
-    stack: "ReactJS, Tailwind CSS, Redux, Firebase, Vite",
-    live: "",
-    github: "https://github.com/BowaDAO/The-Tern-Hub-Web-App",
+    stack:
+      "Next.JS, TypeScript, Tailwind CSS, Node.JS, MongoDB, React Query, Redux Toolkit, React Formik",
+    live: "https://ternhub.vercel.app",
+    github: "https://github.com/BowaDAO/ternhub",
   },
 
   {
     id: "3",
-    image: images.beud1,
-    title: "Beuder Tech Community",
-    description:
-      "A tech community that connects non-tech founders with tech professionals to build commercial products.",
-    slug: slugify("Beuder Tech Community", { lower: true }),
-    images: [images.beud1, images.beud3, images.beud4, images.beud5],
-    stack:
-      "Next.JS, Tailwind CSS, Node.JS, MongoDB, React Query, Redux Toolkit, React Formik",
-    live: "https://beud.netlify.app",
-    github: "https://github.com/BowaDAO/Beud",
-  },
-
-  {
-    id: "4",
     image: images.textscrapper,
     title: "Text Extractor",
     description:
@@ -128,7 +115,7 @@ export const projectData: projectType[] = [
   },
 
   {
-    id: "5",
+    id: "4",
     image: images.exco2,
     title: "Exco mobile application",
     description:
@@ -151,7 +138,7 @@ export const projectData: projectType[] = [
   },
 
   {
-    id: "6",
+    id: "5",
     image: images.ternmobile1,
     title: "TernHub Mobile App",
     description:

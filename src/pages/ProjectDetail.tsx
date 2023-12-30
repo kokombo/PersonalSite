@@ -36,7 +36,11 @@ const ProjectDetail = () => {
   return (
     <main className="bg-black w-full py-4">
       {shots && shots.length > loadedImages.length ? (
-        <div className="h-screen"></div>
+        <div className="h-screen flex items-center justify-center">
+          <p className=" text-gray md:text-lg text-base font-NeutonRegular">
+            Preparing...
+          </p>{" "}
+        </div>
       ) : (
         <div className="dot-background w-full text-gray flex flex-col gap-12 pb-4 ">
           <section className="flex flex-col justify-between text-start md:text-center gap-12 mt-12">

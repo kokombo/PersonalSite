@@ -78,6 +78,7 @@ import ternmobile13 from "/assets/images/ternmobile13.png";
 import ternmobile14 from "/assets/images/ternmobile14.png";
 
 import samuel from "/assets/images/samuel.jpeg";
+import sam from "/assets/images/sam.jpeg";
 
 export default {
   bowal1,
@@ -160,4 +161,5 @@ export default {
   ternmobile14,
 
   samuel,
+  sam,
 };

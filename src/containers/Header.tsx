@@ -9,14 +9,14 @@ const Header = () => {
           <h1 className="text-2xl md:text-3xl font-NeutonBold">Hi, I'm Sam.</h1>
 
           <img
-            src={images.samuel}
+            src={images.sam}
             alt="samuel's picture"
-            className="h-[250px] w-[250px] opacity-50 rounded-full object-contain"
+            className="h-[250px] w-[250px] opacity-80 rounded-full object-cover brightness-50"
           />
         </div>
 
         <article className="flex_center gap-8">
-          <h2 className="text-3xl md:text-5xl font-NeutonRegular max-w-[900px] ">
+          <h2 className="text-3xl md:text-5xl font-NeutonRegular max-w-[900px]">
             A Software Developer with a pocket full of do. I build optimized web
             & mobile experiences.
           </h2>

@@ -11,7 +11,7 @@ const Header = () => {
           <img
             src={images.sam}
             alt="samuel's picture"
-            className="h-[250px] w-[250px] opacity-80 rounded-full object-cover brightness-50"
+            className="h-[250px] w-[250px] rounded-full object-cover brightness-50"
           />
         </div>
 

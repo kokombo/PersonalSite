@@ -36,7 +36,7 @@ const ProjectDetail = () => {
   return (
     <main className="bg-black w-full py-4">
       {shots && shots.length > loadedImages.length ? (
-        <div className="h-screen flex items-center justify-center">
+        <div className="h-screen flex items-center justify-center pb-5">
           <p className=" text-gray md:text-lg text-base font-NeutonRegular">
             Preparing...
           </p>{" "}

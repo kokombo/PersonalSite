@@ -23,6 +23,7 @@ const Project = ({ title, description, image, slug }: projectType) => {
         onClick={() => {
           window.scrollTo(0, 0);
         }}
+        rel="preload"
         className="flex items-center gap-2 hover:text-secondary"
       >
         <p className="md:text-base text-sm font-NeutonRegular ">View Project</p>

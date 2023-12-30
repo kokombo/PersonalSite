@@ -9,11 +9,9 @@ const Contact = () => {
 
       <div className="flex_center gap-8  max-w-5xl font-NeutonRegular ">
         <p className="md:text-xl text-lg">
-          I am happy to connect with you to discuss building amazing solutions
-          together. I enjoy collaborating with other professionals to deliver
-          real-world products. <br /> I am open to startup discussions - it
-          excites me a lot. <br /> Well, we can also talk about football, I have
-          some spare time for that, haha!
+          Want to discuss hiring me for your software development team or just
+          wanna be friends? I am happy to connect with you. Drop me a quick
+          message via email or my socials. I'll get to it in a few...
         </p>
 
         <SendAMessageButton label="Send a message now" />

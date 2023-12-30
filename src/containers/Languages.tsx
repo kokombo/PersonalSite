@@ -1,7 +1,7 @@
 const Languages = () => {
   return (
     <section className="languages">
-      <h2 className=" text-4xl font-NeutonBold">Technologies </h2>
+      <h2 className=" text-4xl font-NeutonBold">Techs I Play With</h2>
 
       <div className="languages_wrapper">
         <p>JavaScript</p>
@@ -10,11 +10,14 @@ const Languages = () => {
         <p> Next.JS</p>
         <p>React Native</p>
         <p>Redux</p>
-        <p>Tailwind CSS </p>
+        <p>Redux Toolkit</p>
+        <p>Tailwind CSS</p>
         <p>NodeJS</p>
         <p>Express.JS</p>
-        <p> MongoDB</p>
-        <p> Firebase</p>
+        <p>MongoDB</p>
+        <p>Firebase</p>
+        <p>Jest</p>
+        <p>TensorFlow</p>
       </div>
     </section>
   );

@@ -5,10 +5,11 @@ import {
   PropsWithChildren,
   useEffect,
 } from "react";
+import { Dispatch, SetStateAction } from "react";
 
 type GlobalContextType = {
   darkMode: boolean;
-  setDarkMode: (darkMode: boolean) => void;
+  setDarkMode: Dispatch<SetStateAction<boolean>>;
   toggleDarkMode: () => void;
 };
 
@@ -22,8 +23,14 @@ const getThemeFromLocalStorage = () => {
   }
 };
 
-const defaultState = {
-  darkMode: getThemeFromLocalStorage(),
+const valueFromStorage = getThemeFromLocalStorage();
+
+type DefaultStateType = {
+  darkMode: boolean;
+};
+
+const defaultState: DefaultStateType = {
+  darkMode: valueFromStorage,
 };
 
 const AppContext = createContext<GlobalContextType | null>(null);
@@ -32,7 +39,7 @@ export const ContextProvider = ({ children }: PropsWithChildren<{}>) => {
   const [darkMode, setDarkMode] = useState(defaultState.darkMode);
 
   const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
+    setDarkMode((prevMode) => !prevMode);
   };
 
   useEffect(() => {
@@ -51,5 +58,7 @@ export const useGlobalContext = () => {
 
   if (context) {
     return context;
+  } else {
+    return null;
   }
 };

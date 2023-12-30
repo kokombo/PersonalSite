@@ -70,19 +70,6 @@ export const projectData: projectType[] = [
 
   {
     id: "2",
-    image: images.beud1,
-    title: "Beuder Tech Community",
-    description:
-      "A tech community that connects non-tech founders with tech professionals to build commercial products.",
-    slug: slugify("Beuder Tech Community", { lower: true }),
-    images: [images.beud1, images.beud3, images.beud4, images.beud5],
-    stack: "ReactJS, Tailwind CSS, Vite",
-    live: "https://beud.netlify.app",
-    github: "https://github.com/BowaDAO/Beud",
-  },
-
-  {
-    id: "3",
     image: images.ternhub1,
     title: "TheTernHub",
     description:
@@ -106,6 +93,20 @@ export const projectData: projectType[] = [
     stack: "ReactJS, Tailwind CSS, Redux, Firebase, Vite",
     live: "",
     github: "https://github.com/BowaDAO/The-Tern-Hub-Web-App",
+  },
+
+  {
+    id: "3",
+    image: images.beud1,
+    title: "Beuder Tech Community",
+    description:
+      "A tech community that connects non-tech founders with tech professionals to build commercial products.",
+    slug: slugify("Beuder Tech Community", { lower: true }),
+    images: [images.beud1, images.beud3, images.beud4, images.beud5],
+    stack:
+      "Next.JS, Tailwind CSS, Node.JS, MongoDB, React Query, Redux Toolkit, React Formik",
+    live: "https://beud.netlify.app",
+    github: "https://github.com/BowaDAO/Beud",
   },
 
   {
@@ -151,38 +152,18 @@ export const projectData: projectType[] = [
 
   {
     id: "6",
-    image: images.logistics1,
-    title: "Sendey",
-    description:
-      "Sendey is a logistics mobile application modelled to work like bolt/uber for doorstep items delivery.",
-    slug: slugify("sendey", { lower: true }),
-    images: [
-      images.logistics1,
-      images.logistics2,
-      images.logistics3,
-      images.logistics4,
-      images.logistics5,
-      images.logistics6,
-    ],
-    stack: "JavaScript, React Native, Expo",
-    live: "",
-    github: "https://github.com/BowaDAO/logisticsmobileapp",
-  },
-
-  {
-    id: "7",
     image: images.ternmobile1,
     title: "TernHub Mobile App",
     description:
       "A job platform for newbies in the tech industry to discover latest internship opportunities and junior roles.",
     slug: slugify("ternhub mobile app", { lower: true }),
     images: [
-      images.ternmobile1,
       images.ternmobile2,
       images.ternmobile3,
       images.ternmobile4,
       images.ternmobile5,
       images.ternmobile6,
+      images.ternmobile1,
       images.ternmobile7,
       images.ternmobile8,
       images.ternmobile9,

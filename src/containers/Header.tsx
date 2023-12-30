@@ -23,14 +23,14 @@ const Header = () => {
 
           <p className="md:text-lg text-base font-NeutonRegular">
             Let's discuss how my passion and skills align with your goals,
-            proving invaluable to the growth of your company/startup. Email me
+            proving invaluable to the growth of your company/startup. Contact me
             now!
           </p>
 
           <Icons />
         </article>
 
-        <div className="mt-[30px] flex flex-col gap-6">
+        <div className="mt-5 lg:mt-[30px] flex flex-col gap-6">
           <SendAMessageButton label="Send an email" />
 
           <VisitSubstack />

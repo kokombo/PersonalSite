@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const NavigationBar = () => {
   return (
-    <nav className="bg-black  lg:py-8 py-6 border-b-[1px] border-b-gray w-full ">
+    <nav className="bg-black  lg:py-8 py-6 border-b-[1px] border-b-gray  w-full ">
       <div className="dot-background flex justify-between">
         <div>
           <Link

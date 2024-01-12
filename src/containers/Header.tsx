@@ -12,7 +12,7 @@ const Header = () => {
             src={images.sam}
             alt="samuel's picture"
             loading="eager"
-            className="h-[250px] w-[250px] rounded-full object-cover brightness-50"
+            className="h-[250px] w-[250px] rounded-full object-cover brightness-60"
           />
         </div>
 

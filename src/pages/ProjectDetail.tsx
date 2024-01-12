@@ -10,6 +10,7 @@ const ProjectDetail = () => {
   const [loadedImages, setLoadedImages] = useState<string[]>([]);
 
   const [data] = useState<projectType[] | null>(projectData);
+
   const { slug } = useParams();
 
   const currentProject = data?.find(
@@ -63,7 +64,7 @@ const ProjectDetail = () => {
           </div>
         </section>
 
-        <section className="flex flex-col items-start gap-6 text-gray">
+        <section className="flex flex-col gap-6 text-gray">
           <article className="flex flex-col gap-4 font-NeutonRegular">
             <h3 className="text-3xl ">Description</h3>
 
@@ -80,7 +81,7 @@ const ProjectDetail = () => {
             <h3 className="text-3xl font-NeutonRegular">Shots</h3>
 
             {shots && shots.length > loadedImages.length ? (
-              <div className="h-screen flex items-center justify-center self-center">
+              <div className="h-screen flex items-center justify-center">
                 <ProgressBar
                   visible={true}
                   barColor="#64ffda"

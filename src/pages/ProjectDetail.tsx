@@ -36,63 +36,59 @@ const ProjectDetail = () => {
 
   return (
     <main className="bg-black w-full py-4">
-      {shots && shots.length > loadedImages.length ? (
-        <div className="h-screen flex items-center justify-center">
-          <ProgressBar
-            visible={true}
-            barColor="#64ffda"
-            borderColor="#e6f1ff"
-            ariaLabel="progress bar loading"
-          />
-        </div>
-      ) : (
-        <div className="dot-background w-full text-gray flex flex-col gap-12 pb-4 ">
-          <section className="flex flex-col justify-between text-start md:text-center gap-12 mt-12">
-            <h2 className="text-4xl font-NeutonBold">
-              {currentProject?.title}{" "}
-            </h2>
+      <div className="dot-background w-full text-gray flex flex-col gap-12 pb-4 ">
+        <section className="flex flex-col justify-between text-start md:text-center gap-12 mt-12">
+          <h2 className="text-4xl font-NeutonBold">{currentProject?.title} </h2>
 
-            <div className="flex  items-center gap-12 text-lg md:text-xl font-NeutonRegular ">
-              {live && (
-                <Link
-                  to={live!}
-                  target="_blank"
-                  className="hover:underline hover:text-secondary hover:scale-110 "
-                >
-                  View Live
-                </Link>
-              )}
+          <div className="flex  items-center gap-12 text-lg md:text-xl font-NeutonRegular ">
+            {live && (
+              <Link
+                to={live!}
+                target="_blank"
+                className="hover:underline hover:text-secondary hover:scale-110 "
+              >
+                View Live
+              </Link>
+            )}
 
-              {github && (
-                <Link
-                  to={github!}
-                  target="_blank"
-                  className="hover:underline hover:text-secondary hover:scale-110 "
-                >
-                  View GitHub
-                </Link>
-              )}
-            </div>
-          </section>
+            {github && (
+              <Link
+                to={github!}
+                target="_blank"
+                className="hover:underline hover:text-secondary hover:scale-110 "
+              >
+                View GitHub
+              </Link>
+            )}
+          </div>
+        </section>
 
-          <section className="flex flex-col items-start gap-6 text-gray">
-            <article className="flex flex-col gap-4 font-NeutonRegular">
-              <h3 className="text-3xl ">Description</h3>
+        <section className="flex flex-col items-start gap-6 text-gray">
+          <article className="flex flex-col gap-4 font-NeutonRegular">
+            <h3 className="text-3xl ">Description</h3>
 
-              <p className="text-lg md:text-xl">
-                {currentProject?.description}
-              </p>
-            </article>
+            <p className="text-lg md:text-xl">{currentProject?.description}</p>
+          </article>
 
-            <article className="flex flex-col gap-4 font-NeutonRegular">
-              <h3 className="text-3xl ">Stack</h3>
+          <article className="flex flex-col gap-4 font-NeutonRegular">
+            <h3 className="text-3xl ">Stack</h3>
 
-              <p className="text-lg md:text-xl"> {currentProject?.stack} </p>
-            </article>
+            <p className="text-lg md:text-xl"> {currentProject?.stack} </p>
+          </article>
 
-            <div className="flex flex-col gap-6">
-              <h3 className="text-3xl font-NeutonRegular">Shots</h3>
+          <div className="flex flex-col gap-6">
+            <h3 className="text-3xl font-NeutonRegular">Shots</h3>
 
+            {shots && shots.length > loadedImages.length ? (
+              <div className="h-screen flex items-center justify-center">
+                <ProgressBar
+                  visible={true}
+                  barColor="#64ffda"
+                  borderColor="#e6f1ff"
+                  ariaLabel="progress bar loading"
+                />
+              </div>
+            ) : (
               <div className="grid gap-6 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 ">
                 {shots?.map((shot, index) => (
                   <div key={index} className="w-full h-full ">
@@ -106,10 +102,10 @@ const ProjectDetail = () => {
                   </div>
                 ))}
               </div>
-            </div>
-          </section>
-        </div>
-      )}
+            )}
+          </div>
+        </section>
+      </div>
 
       <ScrollTop />
     </main>

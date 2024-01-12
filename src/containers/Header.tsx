@@ -22,7 +22,7 @@ const Header = () => {
             & mobile experiences.
           </h2>
 
-          <p className="md:text-lg text-base font-NeutonRegular">
+          <p className="md:text-xl text-lg font-NeutonRegular">
             Let's discuss how my passion and skills align with your goals,
             proving invaluable to the growth of your company/startup. Contact me
             now!

@@ -16,7 +16,7 @@ const Project = ({ title, description, image, slug }: projectType) => {
 
       <h2 className="md:text-xl text-lg font-NeutonBold">{title} </h2>
 
-      <p className="md:text-lg text-base font-NeutonRegular">{description}</p>
+      <p className="md:text-xl text-lg font-NeutonRegular">{description}</p>
 
       <Link
         to={`/projects/${slug}`}
@@ -26,7 +26,7 @@ const Project = ({ title, description, image, slug }: projectType) => {
         rel="preload"
         className="flex items-center gap-2 hover:text-secondary"
       >
-        <p className="md:text-base text-sm font-NeutonRegular ">View Project</p>
+        <p className="md:text-lg text-base font-NeutonRegular ">View Project</p>
 
         <HiOutlineArrowNarrowRight />
       </Link>

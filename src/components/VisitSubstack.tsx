@@ -3,7 +3,7 @@ import { RiExternalLinkLine } from "react-icons/ri";
 
 const VisitSubstack = () => {
   return (
-    <div className="flex items-center justify-center gap-2 underline md:text-lg text-base hover:scale-110 hover:text-secondary font-NeutonRegular">
+    <div className="flex items-center justify-center gap-2 underline md:text-xl text-lg hover:scale-110 hover:text-secondary font-NeutonRegular">
       <Link
         to="https://oluwanbowa.substack.com/"
         target="_blank"

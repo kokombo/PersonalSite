@@ -19,8 +19,8 @@ const Projects = () => {
         ))}
       </div>
 
-      <p className=" text-gray md:text-lg text-base font-NeutonRegular text-center">
-        Want to see some more? Let's get on a call.
+      <p className=" text-gray md:text-xl text-lg font-NeutonRegular text-center">
+        Want to see some more? Let's hop on a call.
         <br />
         <Link
           to="mailto:samuelibrahim3029@gmail.com"

@@ -80,7 +80,7 @@ const ProjectDetail = () => {
           <div className="flex flex-col gap-6">
             <h3 className="text-3xl font-NeutonRegular">Shots</h3>
 
-            {shots && shots.length > loadedImages.length ? (
+            {shots && loadedImages.length > 3 ? (
               <div className="h-screen flex items-center justify-center">
                 <ProgressBar
                   visible={true}

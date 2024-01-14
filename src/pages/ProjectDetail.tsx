@@ -82,6 +82,7 @@ const ProjectDetail = () => {
 
             {shots && loadedImages.length < 3 ? (
               <div className="h-screen flex items-center justify-center">
+                <p>Loading Shots...</p>
                 <ProgressBar
                   visible={true}
                   barColor="#64ffda"

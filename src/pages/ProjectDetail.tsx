@@ -81,7 +81,7 @@ const ProjectDetail = () => {
             <h3 className="text-3xl font-NeutonRegular">Shots</h3>
 
             {shots && loadedImages.length < 3 ? (
-              <div className="h-screen flex items-center justify-center">
+              <div className="h-screen flex flex-col gap-1 items-center justify-center">
                 <p>Loading Shots...</p>
                 <ProgressBar
                   visible={true}

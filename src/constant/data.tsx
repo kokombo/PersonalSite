@@ -73,7 +73,7 @@ export const projectData: projectType[] = [
     image: images.ternhub1,
     title: "TheTernHub",
     description:
-      "A job platform for new tech talents to discover latest internship opportunities and junior roles. ",
+      "A job platform for new tech talents to discover exciting and latest internship opportunities and junior roles. ",
     slug: slugify("TheTernHub", { lower: true }),
     images: [
       images.ternhub1,
@@ -101,7 +101,7 @@ export const projectData: projectType[] = [
     image: images.textscrapper,
     title: "Text Scrapper",
     description:
-      "Save time by effortlessly extracting texts from your screenshots with this application. ",
+      "Save time by seamlessly extracting texts from your screenshots with this web application. ",
     slug: slugify("Text Extractor", { lower: true }),
     images: [
       images.textscrapper,

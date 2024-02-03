@@ -37,7 +37,7 @@ export const projectData: projectType[] = [
     image: images.bowal1,
     title: "Bowal Mobile App",
     description:
-      "A multi-vendor e-commerce marketplace that leverages geo-location technology to online buying and selling in Africa.",
+      "A multi-vendor e-commerce marketplace that leverages geo-location technology to online buying and selling.",
     slug: slugify("Bowal Mobile App", { lower: true }),
     images: [
       images.bowal1,
@@ -73,7 +73,7 @@ export const projectData: projectType[] = [
     image: images.ternhub1,
     title: "TheTernHub",
     description:
-      "A job platform for newbies in the tech industry to discover latest internship opportunities and junior roles. ",
+      "A job platform for new tech talents to discover latest internship opportunities and junior roles. ",
     slug: slugify("TheTernHub", { lower: true }),
     images: [
       images.ternhub1,
@@ -99,9 +99,9 @@ export const projectData: projectType[] = [
   {
     id: "3",
     image: images.textscrapper,
-    title: "Text Extractor",
+    title: "Text Scrapper",
     description:
-      "A simple web application for users to easily extract text from screenshots.",
+      "Save time by effortlessly extracting texts from your screenshots with this application. ",
     slug: slugify("Text Extractor", { lower: true }),
     images: [
       images.textscrapper,

@@ -18,21 +18,23 @@ const Header = () => {
 
         <article className="flex_center gap-8">
           <h2 className="text-3xl md:text-5xl font-NeutonRegular max-w-[900px]">
-            A Software Developer with a pocket full of do. I build optimized web
-            & mobile experiences.
+            Software developer & startup enthusiast passionate about delivering
+            high-quality solutions, with a focus on creating user-friendly
+            experiences and writing clean & maintainable codes.
           </h2>
 
           <p className="md:text-xl text-lg font-NeutonRegular">
-            Let's discuss how my passion and skills align with your goals,
-            proving invaluable to the growth of your company/startup. Contact me
-            now!
+            I'm excited to discuss potential opportunites where I can contribute
+            my skills. Let's connect to discuss how my passion and skills align
+            with your goals, proving invaluable to the growth of your
+            company/startup.
           </p>
 
           <Icons />
         </article>
 
-        <div className="mt-5 lg:mt-[30px] flex flex-col gap-6">
-          <SendAMessageButton label="Send an email" />
+        <div className="mt-5 flex flex-col gap-6">
+          <SendAMessageButton label="Send a quick email" />
 
           <VisitSubstack />
         </div>

@@ -80,7 +80,7 @@ const ProjectDetail = () => {
           <div className="flex flex-col gap-6">
             <h3 className="text-3xl font-NeutonRegular">Shots</h3>
 
-            {shots && loadedImages.length < 3 ? (
+            {loadedImages.length < 2 ? (
               <div className="h-screen flex flex-col gap-1 items-center justify-center">
                 <p>Loading Shots...</p>
                 <ProgressBar

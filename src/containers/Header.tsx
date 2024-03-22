@@ -18,18 +18,15 @@ const Header = () => {
 
         <article className="flex_center gap-8">
           <h2 className="text-3xl md:text-5xl font-NeutonRegular max-w-[900px]">
-            Software developer & startup enthusiast passionate about delivering
-            high-quality solutions, with a focus on creating user-friendly
-            experiences and writing clean & maintainable codes.
+            A Software developer & startup enthusiast who focuses on building
+            delightful, user-friendly, and optimized web experiences.
           </h2>
 
           <p className="md:text-xl text-lg font-NeutonRegular">
-            I'm excited to discuss potential opportunites where I can contribute
-            my skills. Let's connect to discuss how my passion and skills align
-            with your goals, proving invaluable to the growth of your
-            company/startup.
+            Thrives in a fast-paced environment and is eager to contribute to an
+            ambitious team. Let's connect to discuss how my passion and skills
+            align with your goals.
           </p>
-
           <Icons />
         </article>
 

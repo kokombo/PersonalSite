@@ -25,6 +25,10 @@ body {
   padding-right: 6.94%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .dot-background::before {
   content: "";
   position: fixed;

@@ -11,7 +11,7 @@ const Contact = () => {
         <p className="md:text-xl text-lg">
           Thank you for visiting my page. Do you want to discuss hiring me for
           your software development team or just want to connect? I am happy to
-          connect with you. Drop me a quick message via email or my socials.
+          connect with you. Send me a quick message via email or my socials.
           I'll get to it in a few...
         </p>
 

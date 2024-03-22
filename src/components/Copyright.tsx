@@ -1,6 +1,6 @@
 const Copyright = () => {
   return (
-    <article className="flex items-center gap-1 text-gray text-sm font-NeutonRegular">
+    <article className="">
       <p> ❤️ 🚀 </p>
     </article>
   );

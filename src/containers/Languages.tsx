@@ -8,13 +8,14 @@ const Languages = () => {
         <p> TypeScript</p>
         <p> React</p>
         <p> Next.JS</p>
-        <p>React Native</p>
-        <p>Redux</p>
-        <p>Redux Toolkit</p>
         <p>Tailwind CSS</p>
         <p>NodeJS</p>
         <p>Express.JS</p>
         <p>MongoDB</p>
+        <p>PostgreSQL</p>
+        <p>React Native</p>
+        <p>Redux</p>
+        <p>Redux Toolkit</p>
         <p>Firebase</p>
         <p>Jest</p>
         <p>TensorFlow</p>

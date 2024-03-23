@@ -10,6 +10,8 @@ const App = () => {
           <Route index Component={Home} />
           <Route path="/projects/:slug" Component={ProjectDetail} />
         </Route>
+
+        <Route path="*" Component={Home} />
       </Routes>
     </BrowserRouter>
   );

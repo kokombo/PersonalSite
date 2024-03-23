@@ -18,8 +18,8 @@ const Header = () => {
 
         <article className="flex_center gap-8">
           <h2 className="text-3xl md:text-5xl font-NeutonRegular max-w-[900px]">
-            A Software developer & startup enthusiast who focuses on building
-            delightful, user-friendly, and optimized web experiences.
+            A Proficient Software developer & startup enthusiast focused on
+            building user-friendly and optimized web experiences.
           </h2>
 
           <p className="md:text-xl text-lg font-NeutonRegular">

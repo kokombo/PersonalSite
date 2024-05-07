@@ -33,7 +33,7 @@ export const iconsData: IconsType[] = [
 
 export const projectData: projectType[] = [
   {
-    id: "6",
+    id: "1",
     image: images.croch1,
     title: "Croch",
     description:
@@ -54,7 +54,35 @@ export const projectData: projectType[] = [
   },
 
   {
-    id: "1",
+    id: "2",
+    image: images.ternhub1,
+    title: "TheTernHub",
+    description:
+      "A job platform for new tech talents to discover exciting and latest internship opportunities and junior roles. ",
+    slug: slugify("TheTernHub", { lower: true }),
+    images: [
+      images.ternhub1,
+      images.ternhub2,
+      images.ternhub3,
+      images.ternhub4,
+      images.ternhub5,
+      images.ternhub6,
+      images.ternhub7,
+      images.ternhub8,
+      images.ternhub9,
+      images.ternhub10,
+      images.ternhub11,
+      images.ternhub12,
+      images.ternhub13,
+    ],
+    stack:
+      "Next.JS, TypeScript, Tailwind CSS, Node.JS, MongoDB, React Query, Redux Toolkit, React Formik",
+    live: "https://ternhub.vercel.app",
+    github: "https://github.com/kokombo/ternhub",
+  },
+
+  {
+    id: "3",
     image: images.bowal1,
     title: "Bowal Mobile App",
     description:
@@ -90,35 +118,7 @@ export const projectData: projectType[] = [
   },
 
   {
-    id: "2",
-    image: images.ternhub1,
-    title: "TheTernHub",
-    description:
-      "A job platform for new tech talents to discover exciting and latest internship opportunities and junior roles. ",
-    slug: slugify("TheTernHub", { lower: true }),
-    images: [
-      images.ternhub1,
-      images.ternhub2,
-      images.ternhub3,
-      images.ternhub4,
-      images.ternhub5,
-      images.ternhub6,
-      images.ternhub7,
-      images.ternhub8,
-      images.ternhub9,
-      images.ternhub10,
-      images.ternhub11,
-      images.ternhub12,
-      images.ternhub13,
-    ],
-    stack:
-      "Next.JS, TypeScript, Tailwind CSS, Node.JS, MongoDB, React Query, Redux Toolkit, React Formik",
-    live: "https://ternhub.vercel.app",
-    github: "https://github.com/kokombo/ternhub",
-  },
-
-  {
-    id: "3",
+    id: "4",
     image: images.textscrapper,
     title: "Text Scrapper",
     description:
@@ -136,7 +136,7 @@ export const projectData: projectType[] = [
   },
 
   {
-    id: "4",
+    id: "5",
     image: images.exco2,
     title: "Exco mobile application",
     description:
@@ -159,7 +159,7 @@ export const projectData: projectType[] = [
   },
 
   {
-    id: "5",
+    id: "6",
     image: images.ternmobile1,
     title: "TernHub Mobile App",
     description:

@@ -20,7 +20,7 @@ export const iconsData: IconsType[] = [
 
   {
     icon: <FiGithub />,
-    url: "https://github.com/BowaDAO",
+    url: "https://github.com/kokombo",
     name: "github",
   },
 
@@ -65,7 +65,7 @@ export const projectData: projectType[] = [
     ],
     stack: "React Native, Redux, Firebase, JavaScript",
     live: "",
-    github: "https://github.com/BowaDAO/BowalMobileApp",
+    github: "https://github.com/kokombo/BowalMobileApp",
   },
 
   {
@@ -93,7 +93,7 @@ export const projectData: projectType[] = [
     stack:
       "Next.JS, TypeScript, Tailwind CSS, Node.JS, MongoDB, React Query, Redux Toolkit, React Formik",
     live: "https://ternhub.vercel.app",
-    github: "https://github.com/BowaDAO/ternhub",
+    github: "https://github.com/kokombo/ternhub",
   },
 
   {
@@ -111,7 +111,7 @@ export const projectData: projectType[] = [
     ],
     stack: "Tesseract.JS, React",
     live: "https://text-scrapper.netlify.app/",
-    github: "https://github.com/BowaDAO/text-scrapper",
+    github: "https://github.com/kokombo/text-scrapper",
   },
 
   {
@@ -134,7 +134,7 @@ export const projectData: projectType[] = [
     ],
     stack: "TypeScript, React Native, Expo",
     live: "",
-    github: "https://github.com/BowaDAO/exco",
+    github: "https://github.com/kokombo/exco",
   },
 
   {
@@ -162,7 +162,7 @@ export const projectData: projectType[] = [
     ],
     stack: "TypeScript, React Native, Expo, Firebase, Redux",
     live: "",
-    github: "https://github.com/BowaDAO/ternhubmobile",
+    github: "https://github.com/kokombo/ternhubmobile",
   },
 ];
 

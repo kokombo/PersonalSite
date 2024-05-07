@@ -33,6 +33,27 @@ export const iconsData: IconsType[] = [
 
 export const projectData: projectType[] = [
   {
+    id: "6",
+    image: images.croch1,
+    title: "Croch",
+    description:
+      "Croch provides an online marketplace for crochet vendors to list, market, and sell their crafts to customers.",
+    slug: slugify("Croch", { lower: true }),
+    images: [
+      images.croch1,
+      images.croch2,
+      images.croch3,
+      images.croch4,
+      images.croch5,
+      images.croch6,
+    ],
+    stack:
+      "TypeScript, Next JS, Express JS, Node JS, MongoDB, Tailwind CSS, Redux Toolkit",
+    live: "https://croch.vercel.app",
+    github: "https://github.com/kokombo/BowalMobileApp",
+  },
+
+  {
     id: "1",
     image: images.bowal1,
     title: "Bowal Mobile App",

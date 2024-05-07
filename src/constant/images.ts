@@ -80,6 +80,13 @@ import ternmobile14 from "/assets/images/ternmobile14.png";
 import samuel from "/assets/images/samuel.jpeg";
 import sam from "/assets/images/sam.jpeg";
 
+import croch1 from "/assets/images/croch1.png";
+import croch2 from "/assets/images/croch2.png";
+import croch3 from "/assets/images/croch3.png";
+import croch4 from "/assets/images/croch4.png";
+import croch5 from "/assets/images/croch5.png";
+import croch6 from "/assets/images/croch6.png";
+
 export default {
   bowal1,
   bowal2,
@@ -162,4 +169,11 @@ export default {
 
   samuel,
   sam,
+
+  croch1,
+  croch2,
+  croch3,
+  croch4,
+  croch5,
+  croch6,
 };
